@@ -1,22 +1,22 @@
 # Header
-navname: Bentham's Blog
+navname: xzh97's Blog
 
 # navigatior items
 nav:
   Posts: /archives
-  Categories: /category
-  Tags: /tag
+  Categories: /categories
+  Tags: /tags
   About: /about
 
 # favicon
 favicon: /favicon.ico
 
 # Profile
-nickname: Jeremy Bentham
+nickname: xzh97
 
 ### this variable is MarkDown form.
-description: Lorem ipsum dolor sit amet, **consectetur adipiscing elit.** <br>Fusce eget urna vitae velit *eleifend interdum at ac* nisi.
-avatar: /image/avatar.jpeg
+description: 何须仰望他人，自己亦是风景！
+avatar: /image/avatar.jpg
 
 # main menu navigation
 ## links key words should not be changed.
@@ -33,7 +33,7 @@ links:
 #  Gallary:
 #  RSS:
 #  AliPay:
-  ZhiHu: https://www.zhihu.com/people/sirice
+  ZhiHu: https://www.zhihu.com/people/tian-sheng-ai-ni-41/activities
 #  LinkedIn:
 #  FaceBook:
 #  Twitter:
@@ -43,13 +43,13 @@ links:
 #  Sketch:
 #  Gitlab:
 #  Dribble:
-  Instagram:
-  Reddit:
+#  Instagram:
+#  Reddit:
 #  YouTube:
 #  QQ:
 #  Weibo:
 #  WeChat:
-  Github: https://github.com/Siricee
+  Github: https://github.com/xzh97
 
 # how links show: you have 2 choice--text or icon.
 links_text_enable: false
@@ -70,7 +70,7 @@ post_copyright_permalink_enable: true
 post_copyright_license_enable: true
 post_copyright_license_text: Copyright (c) 2019 <a href="http://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a> LICENSE
 post_copyright_slogan_enable: true
-post_copyright_slogan_text: Do you believe in <strong>DESTINY<strong>?
+post_copyright_slogan_text: 最是人间孤愤难平，直消得几回潮落又潮生！
 ## toc
 post_toc_enable: true
 
@@ -92,6 +92,7 @@ stylesheets:
 scripts:
   - /js/script.js
   - /js/tocbot.min.js
+  - /js/gitalk.1.5.0.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
@@ -104,3 +105,13 @@ mathjax:
   import: demand # global or demand
   ## global: all pages will load mathjax,this will degrade performance and some grammers may be parsed wrong.
   ## demand: Recommend option,if your post need fomula, you can declare 'mathjax: true' in Front-matter
+
+# Comment
+gitalk:
+  enable: true #用来做启用判断可以不用
+  #owner: xzh97 #Github 用户名,
+  #repo: xzh97.github.io #储存评论issue的github仓库名
+  #admin: ['xzh97'] #Github 用户名,
+  #oauth:
+    #clientID: 73f1c80bba01cb73e53d #`Github Application clientID`
+    #clientSecret: fb38d78684a17e97a441a4cd0db47dc642423678 #`Github Application clientSecret`
