@@ -87,12 +87,13 @@ time_format: H:mm:ss
 # stylesheets loaded in the <head>
 stylesheets:
   - /css/style.css
+  - https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.0/gitalk.min.css
 
 # scripts loaded in the end of the body
 scripts:
   - /js/script.js
   - /js/tocbot.min.js
-  - /js/gitalk-1.6.2.min.js
+  - https://cdn.bootcdn.net/ajax/libs/gitalk/1.7.0/gitalk.min.js
     # tscanlin/tocbot: Build a table of contents from headings in an HTML document.
     # https://github.com/tscanlin/tocbot
 
